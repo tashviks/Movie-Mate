@@ -97,12 +97,10 @@ window.addEventListener("scroll", function() {
 });
             
   function fadeOut() {
-
   TweenMax.to(".myBtn", 1, {
       y: -100,
       opacity: 0
   });
-
   TweenMax.to(".screen", 2, {
       y: -400,
       opacity: 0,
@@ -171,3 +169,10 @@ document.addEventListener("mousemove", (e) => {
 document.addEventListener("touchmove", (e) => {
   move(e);
 });
+
+Shery.textAnimate("#hero69" , {
+style : 1,
+delay : 0.1,
+debug : true
+}
+)
