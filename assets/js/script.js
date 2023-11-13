@@ -170,9 +170,6 @@ document.addEventListener("touchmove", (e) => {
   move(e);
 });
 
-Shery.textAnimate("#hero69" , {
-style : 1,
-delay : 0.1,
-debug : true
-}
-)
+
+
+
