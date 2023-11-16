@@ -50,9 +50,7 @@
 
 const handleClick = async () => {
     var UserText = document.getElementById("prompt").value;
-    const API_ENDPOINT =
-      "https://generativelanguage.googleapis.com/v1beta2/models/chat-bison-001:generateMessage?key=AIzaSyAyAUuYwUsDbrhViCvBOl6S-s9QpHUSjpU";
-  
+    const API_ENDPOINT ="https://generativelanguage.googleapis.com/v1beta2/models/chat-bison-001:generateMessage?key=AIzaSyAyAUuYwUsDbrhViCvBOl6S-s9QpHUSjpU";
     const requestOptions = {
       method: "POST",
       headers: {

@@ -65,6 +65,10 @@
     box-sizing: border-box;
 }
 
+@-ms-viewport{
+    width: device-width;
+  }
+
 li {
     list-style: none;
 }
@@ -2426,5 +2430,37 @@ h2 {
     transition-duration: .4s, .4s;
     transition-delay: 0s, 0s
 }
+
+/* .checkbtn{
+    font-size: 30px;
+    color : white;
+    float: right;
+    line-height: 80px;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media(max-width : 995px){
+    .checkbtn{
+        display: block;
+        margin-left: 40px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    
+    }
+} */
 
 # sourceMappingURL=mouse-follower.min.css.map
