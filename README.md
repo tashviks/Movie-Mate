@@ -1,5 +1,5 @@
 # moviemate
-Free online movie streaming website built using HTML5, CSS3, JAVASCRIPT and tools like bootstrap and tailwindCSS.
+Free online movie streaming website built using HTML5, CSS3, JAVASCRIPT , BOOTSTRAP 5 , GSAP and Google PALM API.
 
 <h1>Available Movies</h1>
 <ul>
